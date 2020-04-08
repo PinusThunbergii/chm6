@@ -96,7 +96,7 @@ namespace chm6
 
                 euler_method(function, x0, y0, h, n, out xi_array, out yi_array);
                 euler_method_modified(function, x0, y0, h, n, out xi_array_mod, out yi_array_mod);
-                calculate_analitical(analytical_y, x0, y0, -0.3d, h, n, out xi_array_anal, out yi_array_anal);
+                calculate_analitical(analytical_y, x0, y0, -0.341218031767503d, h, n, out xi_array_anal, out yi_array_anal);
 
                 dataGridView.Rows.Clear();
                 chart.Series[0].Points.Clear();
